@@ -87,4 +87,19 @@ ul i {
     color: #ff5e5e;
     cursor: pointer;
     font-size: 18px;
+
+}
+#tasks-list {
+    max-height: 300px;    
+    overflow-y: auto;     
+    padding-right: 5px;   
+    margin-top: 10px;
+}
+
+#tasks-list::-webkit-scrollbar {
+    width: 5px;
+}
+#tasks-list::-webkit-scrollbar-thumb {
+    background: #bec3c9; 
+    border-radius: 10px;
 }
